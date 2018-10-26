@@ -30,16 +30,17 @@ main > ul {
     flex-wrap: wrap;
 }
 
-main > ul li {
+main > ul > li {
     margin: 8px 0;
+    width: 30%;
 }
 
-main > ul li figure {
+main > ul > li figure {
     margin: 0;
     position: relative;
 }
 
-main > ul li figure figcaption {
+main > ul > li figure figcaption {
     position: absolute;
     top: 0;
     right: 0;
@@ -48,8 +49,19 @@ main > ul li figure figcaption {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-main > ul li figure figcaption > h3 {
+main > ul > li figure figcaption > h3 {
     margin: 0;
+}
+
+main > ul > li figure img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    main, aside {
+        flex: none;
+        width: 100%;
+    }
 }
 
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
