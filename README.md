@@ -1,4 +1,4 @@
-# There are 5 tasks in my front-end course. This master branch is my work and submission for 1st task, you can find later tasks in other branches.
+## There are 5 tasks in my front-end course. This master branch is my work and submission for 1st task, you can find later tasks in other branches.
 
 # CSS Exercise - Image List
 
