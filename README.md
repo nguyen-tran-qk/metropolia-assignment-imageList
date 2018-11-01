@@ -1,3 +1,5 @@
+# There are 5 tasks in my front-end course. This master branch is my work and submission for 1st task, you can find later tasks in other branches.
+
 # CSS Exercise - Image List
 
 1. Clone this repo to a folder of your choise `git clone https://github.com/ilkkamtk/imageList.git` or download as ZIP
