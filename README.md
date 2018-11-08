@@ -1,22 +1,38 @@
-## There are 5 tasks in my front-end course. This master branch is my work and submission for 1st task, you can find later tasks in other branches.
+# AJAX
 
-# CSS Exercise - Image List
+## Asynchronous JavaScript And XML
+  * https://en.wikipedia.org/wiki/Ajax_(programming)
+  * http://www.w3schools.com/xml/ajax_intro.asp (instead of XMLHttpRequest we'll be using fetch())
+  * http://www.json.org/
+  * https://github.com/mattpe/wbma/blob/master/docs/w3-promises.
+  * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+  * https://github.com/github/fetch  -fetch polyfill
+  * https://davidwalsh.name/fetch
+  
+## Get Started
+  * Save this repository as zip  `git clone https://github.com/ilkkamtk/BCW2.git` adn extract it
 
-1. Clone this repo to a folder of your choise `git clone https://github.com/ilkkamtk/imageList.git` or download as ZIP
-2. Edit css/main.css
-  * The thumbnails (li elements) should form a grid
-  * The title of the image (h3 element) should be on top of the thumbnails
-  * On desktop main and aside elements should be side by side
-  
->Example layout:
-![Example layout](img/example.png)
-  
-  
-  * Extra: On mobile main and aside elements should be one below the other
-  
-Some help:
-  * http://www.w3schools.com/cssref/pr_list-style-type.asp
-  * https://www.w3schools.com/css/css_positioning.asp
-  * http://users.metropolia.fi/~ullamu/webdev/flexbox
-  * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-  * http://www.w3schools.com/css/css3_mediaqueries.asp
+### Task A
+  * Create an AJAX application which fethes HTML-document and displays it on web page
+  * Use images.html as source for HTML
+  * Open task-a.html and js/main-a.js
+  * Check comments in js/main-a.js for more instructions
+  * Some help: https://developer.mozilla.org/en-US/docs/Web/API/Body/text
+
+### Tehtävä B 
+  * Create an AJAX application which fethes data from JSON-document and displays it on web page
+  * Use images.json as source for data
+  * Open task-b.html and js/main-b.js
+  * Check comments in js/main-b.js for more instructions
+  * Some help:
+    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#String_operators
+    * http://wesbos.com/template-strings-html/
+    * https://developer.mozilla.org/en-US/docs/Web/API/Body/json
+
+### Tehtävä C 
+  * Create similar AJAX application as in task B
+  * Use DOM methods to build the HTML
+  * Open task-c.html and js/main-c.js
+  * Check comments in js/main-c.js for more instructions
+  * Some help: http://www.w3schools.com/js/js_htmldom_nodes.asp
+
