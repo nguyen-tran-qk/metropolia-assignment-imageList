@@ -17,12 +17,12 @@
 
 <body>
 
-    <ul>
-        <li><a href="task_a">Task A</a></li>
-        <li><a href="task_b">Task B</a></li>
-    </ul>
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
 
-       <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
