@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="container">
+  <nav class="row">
+    <div id="categories">
+
+    </div>
+    <div>
+      <button id="reset-button">Reset</button>
+    </div>
+  </nav>
+  <main>
+    <div id="content">
+      <ul>
+
+      </ul>
+    </div>
+  </main>
+</div>
+
+<div class="modal hidden">
+  <button>&times;</button>
+  <h4>Map</h4>
+
+  <figure>
+    <img src="" alt="">
+    <div id="map" class="small-map"></div>
+  </figure>
+</div><!-- /.modal -->
+
+<form action="/" method="post" id="srchform" enctype="multipart/form-data">
+  <input type="text" name="search"> <button type="submit">Search</button><br>
+  <input type="radio" name="column" value="category" checked> Category
+  <input type="radio" name="column" value="title"> Title
+  <input type="radio" name="column" value="details"> Details
+</form>
+<!--for uploading-->
+<form action="/" method="post" enctype="multipart/form-data" id="mediaform">
+  <input type="text" name="category" placeholder="Category">
+  <br>
+  <input type="text" name="title" placeholder="Title">
+  <br>
+  <input type="text" name="details" placeholder="Details">
+  <br>
+  <input type="file" name="mediafile" accept="audio/*,video/*,image/*">
+  <br>
+  <button type="submit">Submit</button>
+</form>
+
+<main>
+
+</main>
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
